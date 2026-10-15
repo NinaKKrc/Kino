@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kino</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+        <h1>Registracija</h1>
+
+        <form>
+            <h2>O tebi</h2>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>Ime *</p>
+                    <input type="text" name="ime" required>
+                </div>
+                <div class="polje">
+                    <p>Priimek *</p>
+                    <input type="text" name="priimek" required>
+                </div>
+            </div>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>Naslov ulice</p>
+                    <input type="text" name="naslov">
+                </div>
+                <div class="polje">
+                    <p>Mesto</p>
+                    <input type="text" name="mesto">
+                </div>
+            </div>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>Poštna številka</p>
+                    <input type="text" name="posta">
+                </div>
+                <div class="polje">
+                    <p>Država</p>
+                    <input type="text" name="drzava" value="Slovenija">
+                </div>
+            </div>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>Spol *</p>
+                    <select name="spol" required>
+                        <option value="">Izberi spol</option>
+                        <option value="m">Moški</option>
+                        <option value="z">Ženska</option>
+                        <option value="d">Drugo</option>
+                    </select>
+                </div>
+                <div class="polje">
+                    <p>Datum rojstva *</p>
+                    <input type="date" name="rojstvo" required>
+                </div>
+            </div>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>Prednostni kino</p>
+                    <select name="kino">
+                        <option value="">Izberi kino</option>
+                        <option value="celje">Cineplexx Celje</option>
+                        <option value="koper">Cineplexx Koper</option>
+                        <option value="kranj">Cineplexx Kranj</option>
+                        <option value="ljubljana">Cineplexx Ljubljana Rudnik</option>
+                        <option value="murska">Cineplexx Murska Sobota</option>
+                        <option value="novo">Cineplexx Novo mesto</option>
+                    </select>
+                </div>
+            </div>
+
+            <h2>Kontaktni podatki</h2>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>E-pošta *</p>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="polje">
+                    <p>Telefonska številka</p>
+                    <input type="tel" name="telefon">
+                </div>
+            </div>
+
+            <h2>Ustvari geslo</h2>
+
+            <div class="vrsta">
+                <div class="polje">
+                    <p>Ustvari geslo *</p>
+                    <input type="password" name="geslo" required>
+                </div>
+                <div class="polje">
+                    <p>Potrdi geslo *</p>
+                    <input type="password" name="geslo2" required>
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="promo" checked>
+                <span>Strinjam se s prejemanjem promocijskih e-poštnih sporočil.</span>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="pogoji" required>
+                <span>Strinjam se s pogoji in določili programa nagrad.</span>
+            </div>
+
+            <button type="submit">REGISTRACIJA</button>
+        </form>
+    </div>
+</body>
+</html>
