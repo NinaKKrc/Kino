@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+
+.levo {
+    width: 45%;
+}
+
+.desno {
+    width: 45%;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.polje {
+    margin-bottom: 18px;
+}
+
+.polje p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.povezava {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.povezava a {
+    color: red;
+    text-decoration: none;
+}
+
+.povezava a:hover {
+    text-decoration: underline;
+}
+
+.desno p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.gumb-registracija {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gumb-registracija:hover {
+    background-color: darkred;
+}
